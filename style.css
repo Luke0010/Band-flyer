@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Rubik+Doodle+Shadow&display=swap');
+
+:root {
+    --colore-1: rgb(64, 134, 156); 
+    --colore-2: #ffcc3f;
+    --background-color: #021627;
+}
+
+body {
+    background-color:rgb(37 43 68);
+    padding: 0;
+    margin: 0;
+    font-family: "Faculty Glyphic", sans-serif;
+    color: white;
+}
+body > header {
+    background-color: var(--background-color);
+}
+header > h3 {
+    margin: 0;
+    padding: 25px;
+    font-size: 20px;
+}
+body > header h3 a {
+    color: var(--colore-2);
+    font-size: 30px; 
+}
+body > header h3 a span {
+    color: var(--colore-1);
+}
+a {
+    text-decoration: none;
+}
+h2, h3 {
+    color: var(--colore-2);
+   
+}
+
+
+main {
+    max-width: 800px;
+    background-color: var(--background-color);
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 30px 0;
+}
+main > header {
+    text-align: center;
+}
+h1 {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-size: 60px;
+    color: var(--colore-1);
+    word-break: break-word;
+    text-transform: uppercase;
+}
+section {
+    margin: 25px 0;  
+}
+img {
+    width: 100%;
+    border-radius: 40px 40px 0 0;
+}
+p {
+    font-size: 18px;
+}
+p em {
+    font-weight: bold;
+}
+mark {
+    background-color:var(--colore-2);
+    padding: 5px 10px;
+    margin: 6px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+
+ul{
+    list-style-position: inside;
+    line-height: 30px;
+    padding-left: 0px;
+    letter-spacing: 4px;  
+}
+ul ~ p {
+    background-color: var(--colore-1);
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+ul + p {
+    background-color: var(--colore-2);
+}
+li {
+    padding-left: 10px;  
+}
+li > span {
+    padding-left: 15px;
+    color: var(--colore-2);
+    font-weight: normal;
+}
+li:nth-child(odd) {
+    background-color: var(--colore-1);
+}
+li:nth-child(even) {
+    background-color: black;
+}
+li::marker {
+    color: var(--colore-2);
+    content: "\2BCC";
+}
+#data{
+    color: rgb(255, 255, 255);
+}
+
+
+main a {
+    padding: 10px 20px;
+    background-color: var(--colore-2);    
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+main a:visited {
+    background-color: var(--colore-2);
+}
+main a:hover {
+    background-color: #14ee9a;
+}
+main a:active {
+    border: solid 3px black;
+    color: white;
+}  
+#order-button {
+    padding-bottom: 40px;
+    border-radius: 0 0 90px 90px;    
+}
+
+
+.quote {
+    background-color:var(--colore-1);
+    padding: 45px;
+    margin: 40px auto;
+    border-radius:0 30px ;
+    max-width: 350px;
+}
+blockquote {
+    margin: 0;
+}
+blockquote p {
+    padding: 15px;
+    background: rgb(172, 171, 171);
+    color: #000000;
+    border-left: 10px ridge var(--background-color);
+}
+blockquote p::before {
+    content: "\201C";
+    padding-right: 6px;
+}
+blockquote p::after {
+    content: "\201D";   
+    padding-left : 6px;
+}
+#first-letter {
+    font-size: 26px;
+}
+figcaption {
+    text-align: right;
+}
+.testo-spaziato {
+    letter-spacing: 5px;
+}
+.testo-spaziato.parole-spaziate {
+    word-spacing: 20px;
+    text-align: center;
+    color: #000000;
+}
+#my-birthday {
+    background-color: hsl(4, 100%, 55%);
+    color: #0d0d0d;
+    padding: 6px 10px;
+    font-size: 24px;
+} 
+#my-birthday > span {
+    color: var(--colore-2);
+}
+  
+
+footer {
+    background-color:var(--background-color);
+    padding: 25px;
+}
+address {
+    font-variant: small-caps;
+    text-align: right;
+    color: var(--colore-2);
+}
